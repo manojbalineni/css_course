@@ -1,0 +1,63 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+#QuestOne {
+  background-color: green;
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  padding: 25px;
+  margin: 20px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+#navbar {
+  height: 60px;
+  background-color: #0f1111;
+}
+
+button {
+  background-color: #f08804;
+}
+
+#logo {
+  color: #f08804;
+  font-size: 25px;
+}
+
+a {
+  margin-right: 200px;
+  text-decoration: none;
+  color: white;
+}
+
+#trafficLight {
+  height: 102px;
+  width: 40px;
+  background-color: lightgray;
+}
+
+#red,
+#yellow,
+#green {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  text-align: center;
+  border: 2px solid lightgray;
+}
+
+#red {
+  background-color: red;
+}
+
+#yellow {
+  background-color: orange;
+}
+
+#green {
+  background-color: green;
+}
