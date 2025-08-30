@@ -1,0 +1,31 @@
+h2 {
+  background-color: pink;
+  display: inline;
+}
+
+button {
+  background-color: aqua;
+  /* display: block; */
+}
+
+div {
+  height: 100px;
+  width: 100px;
+  padding: 25px;
+  margin: 25px;
+  display: inline-block;
+}
+#box1 {
+  /* background-color: red; */
+  background-color: rgba(255, 0, 0, 0.75);
+}
+
+#box2 {
+  background-color: blue;
+  /* display: none; */
+  visibility: hidden;
+}
+
+#box3 {
+  background-color: green;
+}
