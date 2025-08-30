@@ -1,0 +1,13 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  background-image: url(cat_photo.jpeg);
+  background-size: cover;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  color: white;
+  padding-top: 2px;
+  text-align: center;
+}
