@@ -1,0 +1,38 @@
+#parent {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+}
+
+#child {
+  height: 100px;
+  /* width: 50px; */
+  width: 50%;
+  margin-left: 10%;
+  background-color: yellow;
+  padding: 20px;
+  display: inline-block;
+}
+
+#par {
+  height: 200px;
+  width: 200px;
+  background-color: pink;
+  font-size: 20px;
+}
+
+#chd {
+  height: 100px;
+  background-color: aqua;
+  margin: 10%;
+  font-size: 2em;
+  width: 3em;
+}
+
+#rem-chd {
+  height: 100px;
+  width: 10rem;
+  background-color: blueviolet;
+  padding: 25px;
+  border: 1px solid black;
+}
