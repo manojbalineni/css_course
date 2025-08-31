@@ -1,0 +1,50 @@
+body {
+  text-align: center;
+}
+
+div {
+  height: 200px;
+  width: 150px;
+  border: 2px solid black;
+  /* padding: 20px;
+  margin-right: 20px; */
+  display: inline-block;
+}
+
+#container {
+  height: 300px;
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: flex-start;
+  /* align-content: flex-start; */
+  /* align-content: flex-end; justify-content */
+}
+
+#box1 {
+  background-color: aqua;
+}
+
+#box2 {
+  background-color: pink;
+  height: 275px;
+  align-self: flex-end;
+  flex-shrink: 5;
+}
+
+#box3 {
+  background-color: burlywood;
+  flex-grow: 2;
+}
+
+#box4 {
+  background-color: rebeccapurple;
+  flex-grow: 1;
+}
+
+#box5 {
+  background-color: greenyellow;
+  align-self: flex-end;
+}
